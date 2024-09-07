@@ -140,15 +140,23 @@ h3 {
     height: 210px;
     width: 210px;
     margin: 0 auto;
-    overflow: hidden; /* Ensures that the border-radius applies to the image */
+    overflow: hidden;
+    /* Ensures that the border-radius applies to the image */
 }
 
 .logo-img {
     height: 100%;
     width: 100%;
     /* object-fit: cover; */
-    border-radius: 50%; /* Makes the image round */
-    border: 5px solid black; /* Adds a black border around the image */
+    border-radius: 50%;
+    /* Makes the image round */
+    border: 5px solid black;
+    /* Adds a black border around the image */
+}
+
+.social-link {
+    text-decoration: none;
+    color: #000;
 }
 
 .social {
@@ -197,7 +205,8 @@ h3 {
     font-size: 16px;
     color: #333;
     background-color: transparent;
-    border: 2px solid #333; /* Outline border */
+    border: 2px solid #333;
+    /* Outline border */
     border-radius: 5px;
     padding: 10px 15px;
     margin-bottom: 10px;
@@ -207,8 +216,10 @@ h3 {
 }
 
 .list-thing:hover {
-    color: #000; /* Change text color on hover */
-    border-color: #000; /* Change border color on hover */
+    color: #000;
+    /* Change text color on hover */
+    border-color: #000;
+    /* Change border color on hover */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
 }
 
@@ -310,35 +321,43 @@ h3 {
         width: 100%;
     }
 
-    .top-bar, .name {
-        font-size: 1.5em; /* Adjust font size for smaller screens */
+    .top-bar,
+    .name {
+        font-size: 1.5em;
+        /* Adjust font size for smaller screens */
     }
 
     .toggle-button {
-        margin-top: 10px; /* Spacing between button and header text */
+        margin-top: 10px;
+        /* Spacing between button and header text */
     }
 
     .logo-img {
-        width: 150px; /* Adjust logo size for smaller screens */
+        width: 150px;
+        /* Adjust logo size for smaller screens */
         height: 150px;
     }
 
     .list-thing {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 14px;
+        /* Adjust font size for smaller screens */
         padding: 8px;
     }
 }
 
 @media (max-width: 480px) {
     .name {
-        font-size: 1.2em; /* Further adjust font size for very small screens */
+        font-size: 1.2em;
+        /* Further adjust font size for very small screens */
     }
 
     .side-header {
-        font-size: 1em; /* Adjust font size for very small screens */
+        font-size: 1em;
+        /* Adjust font size for very small screens */
     }
 
     .toggle-button i {
-        font-size: 18px; /* Adjust icon size for very small screens */
+        font-size: 18px;
+        /* Adjust icon size for very small screens */
     }
 }
